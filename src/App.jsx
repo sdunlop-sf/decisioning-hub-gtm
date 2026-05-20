@@ -3,6 +3,7 @@ import { AnimatePresence } from 'framer-motion'
 import Slide from './components/Slide'
 import NavBar from './components/NavBar'
 import SlideTitle from './slides/SlideTitle'
+import SlideWhat from './slides/SlideWhat'
 import SlideThesis from './slides/SlideThesis'
 import SlideFlywheel from './slides/SlideFlywheel'
 import SlideRamp from './slides/SlideRamp'
@@ -16,6 +17,7 @@ import './App.css'
 
 const slides = [
   SlideTitle,
+  SlideWhat,
   SlideThesis,
   SlideFlywheel,
   SlideRamp,

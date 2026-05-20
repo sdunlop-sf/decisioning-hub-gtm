@@ -1,0 +1,86 @@
+.what-slide {
+  width: 100%;
+  max-width: 860px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-heading {
+  font-size: clamp(26px, 3vw, 40px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.what-body {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+  max-width: 620px;
+  margin-bottom: 32px;
+}
+
+.what-flow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.what-step {
+  flex: 1;
+  max-width: 160px;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.what-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 auto 8px;
+}
+
+.what-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.what-desc {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.what-arrow {
+  color: var(--cloud-80);
+  font-size: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.what-tagline {
+  margin-top: 28px;
+  font-size: clamp(13px, 1.2vw, 15px);
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+  .what-flow {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .what-arrow {
+    transform: rotate(90deg);
+  }
+}
