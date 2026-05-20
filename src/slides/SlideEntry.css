@@ -1,0 +1,185 @@
+.entry-slide {
+  width: 100%;
+  max-width: 820px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.accent-line-teal {
+  background: linear-gradient(90deg, var(--teal), var(--teal-l)) !important;
+}
+.accent-line-gold {
+  background: linear-gradient(90deg, var(--gold), #FCC003) !important;
+}
+.eyebrow-teal { color: var(--teal) !important; }
+.eyebrow-gold { color: var(--gold) !important; }
+
+.entry-heading {
+  font-size: clamp(24px, 2.6vw, 36px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.entry-sub {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+.sku-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sku-card {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: inset 3px 0 0 var(--blue-m);
+}
+
+.sku-card-teal {
+  box-shadow: inset 3px 0 0 var(--teal);
+}
+
+.sku-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.sku-code {
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.sku-role {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.entry-bottom {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: rgba(6, 106, 254, 0.06);
+  border: 1px solid rgba(6, 106, 254, 0.15);
+  border-radius: 10px;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.entry-attach strong {
+  color: var(--blue-m);
+}
+
+.entry-arrow {
+  color: var(--blue-m);
+  font-size: 18px;
+}
+
+.entry-target {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.entry-callout {
+  padding: 14px 20px;
+  background: rgba(6, 165, 154, 0.06);
+  border: 1px solid rgba(6, 165, 154, 0.15);
+  border-radius: 10px;
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.entry-callout strong {
+  color: var(--teal);
+}
+
+.checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.check-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.check-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gold);
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.check-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.check-value {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.aela-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.aela-card {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.aela-type {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.aela-min {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: -0.02em;
+}
+
+.aela-note {
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .sku-grid, .aela-grid {
+    grid-template-columns: 1fr;
+  }
+}

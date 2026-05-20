@@ -1,0 +1,63 @@
+.title-slide {
+  text-align: center;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accent-line {
+  width: 44px;
+  height: 3px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, var(--blue), var(--teal-l));
+}
+
+.eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 16px;
+}
+
+.title-hero {
+  font-size: clamp(42px, 5vw, 72px);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.title-hero .hl {
+  color: var(--blue);
+}
+
+.title-subtitle {
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--blue);
+  opacity: 0.65;
+  margin-bottom: 8px;
+}
+
+.title-tagline {
+  font-size: clamp(16px, 1.5vw, 20px);
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.title-meta {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  opacity: 0.7;
+}

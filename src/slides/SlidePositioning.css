@@ -1,0 +1,53 @@
+.pos-slide {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pos-heading {
+  font-size: clamp(22px, 2.6vw, 34px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 28px;
+  line-height: 1.2;
+}
+
+.pos-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.pos-card {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 22px;
+  text-align: left;
+  backdrop-filter: blur(8px);
+}
+
+.pos-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.pos-body {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.pos-tagline {
+  font-size: clamp(14px, 1.3vw, 17px);
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
