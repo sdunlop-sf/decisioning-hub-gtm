@@ -17,7 +17,7 @@ export default function SlidePipeline() {
         <div className="eyebrow" style={{ textAlign: 'center' }}>Pipeline Opportunity</div>
       </FadeIn>
       <FadeIn delay={0.25}>
-        <h2 className="pipeline-heading">$1.8B+ in open AU pipeline.</h2>
+        <h2 className="pipeline-heading">$65M+ in addressable AU pipeline.</h2>
       </FadeIn>
 
       <FadeIn delay={0.35}>

@@ -27,7 +27,7 @@ export default function SlideTitle() {
       <FadeIn delay={0.7}>
         <div className="title-meta">
           <span>May 2026</span>
-          <span>AU Pipeline: $1.8B+</span>
+          <span>AU Pipeline: $65M+</span>
         </div>
       </FadeIn>
     </div>
